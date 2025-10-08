@@ -1,0 +1,112 @@
+ptf ~
+$ECOTYPES:WHCER048.20200721   Last edit: 2020-07-21 CHP
+!
+! COEFF   DEFINITION
+! =====   ==========
+! AWNS    Awn score (0-10;10=very long)
+! ECO#    Code for the ecotype (code)
+! GN%MN   Minimum grain N (%)
+! GN%S    Standard grain N (%)
+! HTSTD   Standard canopy height (cm)
+! KCAN    PAR extinction coefficient (#)
+! LA1S    Area of standard first leaf (cm2)
+! LAFR    Increase in potential area of leaves,reproductive phase (fr/leaf)
+! LAFV    Increase in potential area of leaves,vegetative phase (fr/leaf)
+! LARS    Area of standard reproductive phase leaf (cm2)
+! LAVS    Area of standard vegetative phase leaf (cm2)
+! LLIFE   Life of leaves during vegetative phase (phyllochrons)
+! LSPHE   Final leaf senescence ends (GrowhStage)
+! LSPHS   Final leaf senescence starts (GrowhStage)
+! P1      Duration of phase end juvenile to terminal spikelet (PVTU)
+! P2      Duration of phase terminal spikelet to end leaf growth (TU)
+! P2FR1   Duration of phase terminal spikelet to jointing (fr P2)
+! P3      Duration of phase end leaf growth to end spike growth (TU)
+! P4      Duration of phase end spike growth to end grain fill lag (TU)
+! P4FR1   Duration of phase end spike growth to anthesis (fr P4)
+! P4FR2   Duration of phase anthesis start to anthesis end (fr P4)
+! PARU2   PAR conversion to dm ratio,after last leaf (g/MJ) (If -99,set to PARUE)
+! PARUE   PAR conversion to dm ratio,before last leaf stage (g/MJ)
+! PHFn    Factor by which PHINTS is multiplied -> PHINT for phase (#)
+! PHLn    Leaf # produced during phyllochron phase (#)
+! PPFPE   Daylength factor,pre emergence (#,0-1)
+! RDGS    Root depth growth rate,early phase (cm/standard d)
+! RS%S    Reserves part of assimilates going to stem (%)
+! SLAS    Specific leaf area,standard first leaf (cm2/g)
+! TDFAC   Tiller death factor (%/st.day when tiller wt 2xstandard wt)
+! TDPHE   Tiller death ending stage (GrowthStage)
+! TDPHS   Tiller death start stage (GrowthStage)
+! TIFAC   Tiller initiation (rate) factor (fr of phyllochron based) (#)
+! TIL#S   Tiller production starts (leaf #)
+! TIPHE   Tillering phase end stage (GrowthStage)
+! TKFH    Temperature at which killed when fully hardened (oC)
+! VEFF    Vernalization effect (Rate reduction when unvernalized (fr)
+! WFGU    Water stress factor,growth,upper (fr)
+! WFPU    Water stress factor,photosynthesis,upper (fr)
+!
+! Coefficients presented here differ from those used in DSSAT
+! Version 3.5. They have been developed from 'parameters'
+! embedded in the code of the Ceres model,from the Cropsim model,
+! and from the literature. They are likely to change as more
+! experience is gained, and should not yet be taken as fixed.
+ 
+! In Ceres3.5, P1=400 for PHINT=95; P2=phint*3; P3=phint*2; P4=200,
+! with anthesis occurring in P4 after 80 units.
+ 
+*ECOTYPE:WHCER048
+!         ------PHENOLOGY(PHASE_DURATIONS)------ P.MOD --MAX_RUE--  LEAF PRODN  ------LEAF_SIZES------ LEAF_SENESC TILLER_PRODUCTION ---TILLER_DEATH-- ROOTS -----CANOPY------  ---COMPOSITION--  KILL
+@ECO#     P1 P2FR1    P2    P3 P4FR1 P4FR2    P4  VEFF PARUE PARU2  PHL2  PHF3  LA1S  LAFV  LAFR  SLAS LSPHS LSPHE TIL#S TIPHE TIFAC TDPHS TDPHE TDFAC  RDGS HTSTD  AWNS  KCAN  RS%S  GN%S GN%MN  TKFH
+!          1     2     3     4     5     6     7     8     9    10    11    12    13    14    15    16    17    18    19    20    21    22    23    24    25    26    27    28    29    30    31    32
+!       oC.d    fr  oC.d  oC.d    fr    fr  oC.d    fr  g/MJ  g/MJ   Lf#   Fac   cm2 fr/lf fr/lf cm2/g GrStg GrStg   Lf# GrStg   Fac GrStg GrStg.  Fac  cm/d    cm Score   Exp     %     %     %    oC
+999991   100     0   100   100  0.15  0.05   100   0.0   1.0   1.0   4.0   1.0   1.0  0.01  0.10   100   4.0   5.5   2.3  1.95   0.5   1.5   2.0   0.0   1.0    60   0.0   .65    10   1.0   0.0   -25
+999992   500   .60   500   500  0.35  0.50   500   1.0   6.0   6.0   200   1.6  20.0  0.80  3.00   600   5.7   6.5   7.0   4.0   2.0   4.0   6.0  20.0   5.0   150  10.0   .95    60   3.5   6.0   -10
+ 
+DFAULT   200   .25   200   200  0.25  0.10   200   0.6   2.7   2.7    15   1.3   5.0  0.10  0.50   400   5.5   6.3   3.5   2.5   1.0   2.5   6.0   4.0   3.0   100   0.0   .85    30   3.0   0.0   -10
+ 
+CAWH01   362   .25   258   172   .25   .10   200   0.5   2.7   2.7    13   1.0   3.0  0.05  0.30   300   4.2   6.0   3.0   2.5   1.0   2.7   6.0   4.0   3.0   100   0.0   .85    30   3.0   2.0   -10
+USWH01   400   .25   285   190   .25   .10   200   1.0   2.3   2.3    13   1.0   2.0  0.15  0.01   400   5.1   6.5   4.5   2.0   0.8   2.2   6.0   4.0   3.0   100   5.0   .85    30   2.2   1.9   -20
+UKWH01   421   .25   300   200   .25   .10   200   0.5   2.7   2.7    13   1.0   2.0  0.10  0.30   485   5.7   6.3   4.5   2.0   0.5   2.2   6.0  20.0   3.0   100   0.0   .85    60   2.0   1.0   -15
+ 
+AZWH18   460   .25   328   219   .25   .10   200   0.6   2.7   2.7    13   1.0   2.0  0.15  0.50   400   5.3   6.5   4.5   2.0   0.8   2.2   6.0   4.0   3.0   100   5.0   .85    30   2.2   1.9   -20
+CI0001   400   .25   280   200   .25   .10   260   0.6   2.0   2.5    13   1.0  10.0  0.30  0.40   350   5.4   6.1   2.3  1.95   2.0   2.8   6.0   4.0   3.0   100   5.0   .85    30   2.2   1.9   -20
+ 
+TXWH01   400   .25   285   190   .25   .10   200   1.0   1.5   1.5    13   1.0   2.0  0.15  0.01   400   5.1   6.5   4.5   2.0   0.8   2.2   6.0   4.0   3.0   100   5.0   .85    30   2.2   1.9   -20
+TWKG01   421   .25   300   240   .25   .10   240   1.0   2.3   2.3    13   1.0   5.0  0.10  0.55   400   5.7   6.3   4.5   2.0   0.5   2.0   5.0   0.5   3.0   100   0.0   .85    60   2.0   0.0   -15
+ 
+! Modify this....
+CAWH02 362.0 .2500 258.0 172.0 .2500 .1000 200.0 .5000   2.7   2.7    13   1.0   3.0  0.05  0.30   300   4.2   6.0   3.0   2.5   1.0   2.7   6.0   4.0   3.0   100   0.0   .85    30   3.0   2.0   -10
+ 
+! noRS_WW-23 = 01
+! noRS_WW-22-23 = 02
+! noRS_noYC_WW-23 = 03
+! noRS_noYC_WW-22-23 = 04
+ 
+! noRS_WW-23 = 01
+CI0100 400.0 .2500 280.0 200.0 .2088 .0716 260.0 .5531 1.907 1.777 13.00 1.000 10.00 .3039 .3966 350.0 5.483 6.175 2.300 1.950 1.991 3.037 6.000 3.992 2.769 100.0 5.000 .7692 30.00 2.197 1.900 -20.0
+CI0101 400.0 .2500 280.0 200.0 .1500 .0729 260.0 .5417 1.921 2.017 13.00 1.000 10.01 .3000 .3999 350.0 5.524 6.182 2.300 1.950 1.995 2.825 6.000 3.996 2.648 100.0 5.000 .6833 30.00 2.193 1.900 -20.0
+CI0102 400.0 .2500 280.0 200.0 .1666 .0801 260.0 .4871 1.999 1.947 13.00 1.000 10.00 .3000 .3999 350.0 5.406 6.110 2.300 1.950 2.000 2.807 6.000 3.999 2.826 100.0 5.000 .7636 30.00 2.196 1.900 -20.0
+CI0103 400.0 .2500 280.0 200.0 .2280 .1000 260.0 .4966 1.884 1.818 13.00 1.000 9.998 .2984 .4001 350.0 5.440 6.181 2.300 1.950 1.997 2.929 6.000 3.988 3.149 100.0 5.000 .7465 30.00 2.205 1.900 -20.0
+ 
+! noRS_WW-23 No BMts = 05
+CI0500 400.0 .2500 280.0 200.0 .1540 .0500 260.0 .5386 1.791 2.691 13.00 1.000 9.971 .2978 .3984 350.0 5.520 6.283 2.300 1.950 1.999 3.254 6.000 3.997 3.281 100.0 5.000 .8643 30.01 2.137 1.900 -20.0
+CI0501 400.0 .2500 280.0 200.0 .1500 .0500 260.0 .5208 1.926 2.745 13.00 1.000 10.00 .3021 .4000 350.0 5.513 6.126 2.300 1.950 1.998 2.795 6.000 3.991 2.660 100.0 5.000 .6500 30.00 2.100 1.900 -20.0
+CI0502 ~P1 ~ ~P2F~ ~P2 ~ ~P3 ~ ~P4F~ ~P41~ ~P4 ~ ~VEF~ ~PAR~ ~PA1~ ~PHL~ ~PHF~ ~LA1~ ~LAF~ ~LA2~ ~SLA~ ~LSP~ ~LS1~ ~TIL~ ~TIP~ ~TIF~ ~TDP~ ~TD1~ ~TDF~ ~RDG~ ~HTS~ ~AWN~ ~KCA~ ~RS%~ ~GN%~ ~GN1~ ~TKF~
+CI0503   400   .25   280   200   .25   .10   260   0.6   2.0   2.5    13   1.0  10.0  0.30  0.40   350   5.4   6.1   2.3  1.95   2.0   2.8   6.0   4.0   3.0   100   5.0   .85    30   2.2   1.9   -20
+ 
+! noRS_WW-22-23 = 02
+CI0200 400.0 .2500 280.0 200.0 .2088 .0716 260.0 .5531 1.907 1.777 13.00 1.000 10.00 .3039 .3966 350.0 5.483 6.175 2.300 1.950 1.991 3.037 6.000 3.992 2.769 100.0 5.000 .7692 30.00 2.197 1.900 -20.0
+CI0201 400.0 .2500 280.0 200.0 .2277 .0806 260.0 .5186 1.791 1.782 13.00 1.000 10.00 .3021 .3984 350.0 5.476 6.199 2.300 1.950 1.998 3.022 6.000 3.998 3.143 100.0 5.000 .8700 30.01 2.199 1.900 -20.0
+CI0202 400.0 .2500 280.0 200.0 .1520 .0506 260.0 .4957 1.926 1.712 13.00 1.000 10.01 .3006 .4000 350.0 5.665 6.295 2.300 1.950 1.984 3.215 6.000 3.993 3.220 100.0 5.000 .6819 30.00 2.202 1.900 -20.0
+CI0203 400.0 .2500 280.0 200.0 .2094 .1000 260.0 .4555 2.125 2.108 13.00 1.000 10.00 .2991 .4000 350.0 5.700 6.445 2.300 1.969 1.971 3.078 6.000 3.975 2.795 100.0 5.000 .6500 30.00 2.195 1.900 -20.0
+CI0204 400.0 .2500 280.0 200.0 .1500 .0843 260.0 .5941 1.655 2.414 13.00 1.000 10.00 .3000 .4000 350.0 5.404 6.104 2.300 1.950 2.000 2.816 6.000 4.000 2.967 100.0 5.000 .8323 30.00 2.198 1.900 -20.0
+ 
+! noRS_noYC_WW-23 = 03
+CI0300 400.0 .2500 280.0 200.0 .1500 .0500 260.0 .5935 1.792 2.222 13.00 1.000 10.01 .3003 .3992 350.0 5.465 6.153 2.300 1.950 1.993 2.811 6.000 3.994 2.611 100.0 5.000 .6976 30.00 2.183 1.900 -20.0
+CI0301 400.0 .2500 280.0 200.0 .2232 .1000 260.0 .5053 1.801 1.727 13.00 1.000 9.889 .3000 .3951 350.0 5.466 6.191 2.300 1.956 1.997 3.089 6.000 4.001 3.120 100.0 5.000 .9500 30.04 2.200 1.900 -20.0
+CI0302 400.0 .2500 280.0 200.0 .2175 .1000 260.0 .5158 1.892 1.851 13.00 1.000 10.00 .3000 .3962 350.0 5.440 6.183 2.300 1.953 1.997 3.015 6.000 4.001 3.008 100.0 5.000 .9410 30.00 2.200 1.900 -20.0
+ 
+! noRS_noYC_WW-22-23 = 04
+CI0400 400.0 .2500 280.0 200.0 .2369 .0990 260.0 .5753 1.682 2.119 13.00 1.000 10.00 .3000 .3962 350.0 5.407 6.115 2.300 1.950 1.998 2.970 6.000 4.001 2.961 100.0 5.000 .8388 30.00 2.190 1.900 -20.0
+CI0401 400.0 .2500 280.0 200.0 .1734 .0500 260.0 .4907 1.837 1.861 13.00 1.000 10.01 .2997 .4002 350.0 5.492 6.219 2.300 1.950 1.993 3.016 6.000 3.999 3.023 100.0 5.000 .8872 30.00 2.200 1.900 -20.0
+CI0402 400.0 .2500 280.0 200.0 .1500 .0995 260.0 .5424 1.773 1.920 13.00 1.000 9.958 .3006 .3998 350.0 5.539 6.264 2.300 1.950 1.995 3.019 6.000 3.896 2.942 100.0 5.000 .9322 30.01 2.199 1.900 -20.0
+CI0403 400.0 .2500 280.0 200.0 .2094 .1000 260.0 .4555 2.125 2.108 13.00 1.000 10.00 .2991 .4000 350.0 5.700 6.445 2.300 1.969 1.971 3.078 6.000 3.975 2.795 100.0 5.000 .6500 30.00 2.195 1.900 -20.0
+CI0404 400.0 .2500 280.0 200.0 .1500 .0998 260.0 .5533 1.784 1.664 13.00 1.000 10.00 .3002 .3934 350.0 5.437 6.139 2.300 1.950 1.997 3.026 6.000 3.999 3.059 100.0 5.000 .8792 30.00 2.198 1.900 -20.0

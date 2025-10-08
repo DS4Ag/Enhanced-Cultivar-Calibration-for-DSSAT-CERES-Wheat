@@ -1,0 +1,336 @@
+*EXP.DETAILS: CIOB2301WH ROOTS ANATOMY
+
+*GENERAL
+@PEOPLE
+Luis Vargas Rojas
+@ADDRESS
+CIMMYT, CENEB, OBREGON, MEXICO
+@SITE
+710
+@ PAREA  PRNO  PLEN  PLDR  PLSP  PLAY HAREA  HRNO  HLEN  HARM.........
+      8     6     5   -99     0   -99   5.6     6   3.5 mbine
+
+*TREATMENTS                        -------------FACTOR LEVELS------------
+@N R O C TNAME.................... CU FL SA IC MP MI MF MR MC MT ME MH SM
+ 1 1 1 0 WW23_G-1                   1  1  1  1  1  1  1  1  0  1  0  1  1
+ 2 1 1 0 WW23_G-2                   2  1  1  1  1  1  1  1  0  1  0  1  1
+ 3 1 1 0 WW23_G-3                   3  1  1  1  1  1  1  1  0  1  0  1  1
+ 4 1 1 0 WW23_G-4                   4  1  1  1  1  1  1  1  0  1  0  1  1
+ 5 1 1 0 WW23_G-5                   5  1  1  1  1  1  1  1  0  1  0  1  1
+ 6 1 1 0 WW23_G-6                   6  1  1  1  1  1  1  1  0  1  0  1  1
+ 7 1 1 0 WW23_G-7                   7  1  1  1  1  1  1  1  0  1  0  1  1
+ 8 1 1 0 WW23_G-8                   8  1  1  1  1  1  1  1  0  1  0  1  1
+ 9 1 1 0 WW23_G-9                   9  1  1  1  1  1  1  1  0  1  0  1  1
+10 1 1 0 WW23_G-10                 10  1  1  1  1  1  1  1  0  1  0  1  1
+11 1 1 0 WW23_G-11                 11  1  1  1  1  1  1  1  0  1  0  1  1
+12 1 1 0 WW23_G-12                 12  1  1  1  1  1  1  1  0  1  0  1  1
+13 1 1 0 WW23_G-13                 13  1  1  1  1  1  1  1  0  1  0  1  1
+14 1 1 0 WW23_G-14                 14  1  1  1  1  1  1  1  0  1  0  1  1
+15 1 1 0 HT22_G-1                   1  2  2  2  2  2  2  2  0  2  0  2  2
+16 1 1 0 HT22_G-2                   2  2  2  2  2  2  2  2  0  2  0  2  2
+17 1 1 0 HT22_G-3                   3  2  2  2  2  2  2  2  0  2  0  2  2
+18 1 1 0 HT22_G-4                   4  2  2  2  2  2  2  2  0  2  0  2  2
+19 1 1 0 HT22_G-5                   5  2  2  2  2  2  2  2  0  2  0  2  2
+20 1 1 0 HT22_G-6                   6  2  2  2  2  2  2  2  0  2  0  2  2
+21 1 1 0 HT22_G-7                   7  2  2  2  2  2  2  2  0  2  0  2  2
+22 1 1 0 HT22_G-8                   8  2  2  2  2  2  2  2  0  2  0  2  2
+23 1 1 0 HT22_G-9                   9  2  2  2  2  2  2  2  0  2  0  2  2
+24 1 1 0 HT22_G-10                 10  2  2  2  2  2  2  2  0  2  0  2  2
+25 1 1 0 HT22_G-11                 11  2  2  2  2  2  2  2  0  2  0  2  2
+26 1 1 0 HT22_G-12                 12  2  2  2  2  2  2  2  0  2  0  2  2
+27 1 1 0 HT22_G-13                 13  2  2  2  2  2  2  2  0  2  0  2  2
+28 1 1 0 HT22_G-14                 14  2  2  2  2  2  2  2  0  2  0  2  2
+29 1 1 0 DR22_G-1                   1  3  3  3  3  3  3  0  0  3  0  3  3
+30 1 1 0 DR22_G-2                   2  3  3  3  3  3  3  0  0  3  0  3  3
+31 1 1 0 DR22_G-3                   3  3  3  3  3  3  3  0  0  3  0  3  3
+32 1 1 0 DR22_G-4                   4  3  3  3  3  3  3  0  0  3  0  3  3
+33 1 1 0 DR22_G-5                   5  3  3  3  3  3  3  0  0  3  0  3  3
+34 1 1 0 DR22_G-6                   6  3  3  3  3  3  3  0  0  3  0  3  3
+35 1 1 0 DR22_G-7                   7  3  3  3  3  3  3  0  0  3  0  3  3
+36 1 1 0 DR22_G-8                   8  3  3  3  3  3  3  0  0  3  0  3  3
+37 1 1 0 DR22_G-9                   9  3  3  3  3  3  3  0  0  3  0  3  3
+38 1 1 0 DR22_G-10                 10  3  3  3  3  3  3  0  0  3  0  3  3
+39 1 1 0 DR22_G-11                 11  3  3  3  3  3  3  0  0  3  0  3  3
+40 1 1 0 DR22_G-12                 12  3  3  3  3  3  3  0  0  3  0  3  3
+41 1 1 0 DR22_G-13                 13  3  3  3  3  3  3  0  0  3  0  3  3
+42 1 1 0 DR22_G-14                 14  3  3  3  3  3  3  0  0  3  0  3  3
+43 1 1 0 WW22_G-1                   1  4  4  4  4  4  4  3  0  4  0  4  4
+44 1 1 0 WW22_G-2                   2  4  4  4  4  4  4  3  0  4  0  4  4
+45 1 1 0 WW22_G-3                   3  4  4  4  4  4  4  3  0  4  0  4  4
+46 1 1 0 WW22_G-4                   4  4  4  4  4  4  4  3  0  4  0  4  4
+47 1 1 0 WW22_G-5                   5  4  4  4  4  4  4  3  0  4  0  4  4
+48 1 1 0 WW22_G-6                   6  4  4  4  4  4  4  3  0  4  0  4  4
+49 1 1 0 WW22_G-7                   7  4  4  4  4  4  4  3  0  4  0  4  4
+50 1 1 0 WW22_G-8                   8  4  4  4  4  4  4  3  0  4  0  4  4
+51 1 1 0 WW22_G-9                   9  4  4  4  4  4  4  3  0  4  0  4  4
+52 1 1 0 WW22_G-10                 10  4  4  4  4  4  4  3  0  4  0  4  4
+53 1 1 0 WW22_G-11                 11  4  4  4  4  4  4  3  0  4  0  4  4
+54 1 1 0 WW22_G-12                 12  4  4  4  4  4  4  3  0  4  0  4  4
+55 1 1 0 WW22_G-13                 13  4  4  4  4  4  4  3  0  4  0  4  4
+56 1 1 0 WW22_G-14                 14  4  4  4  4  4  4  3  0  4  0  4  4
+
+*CULTIVARS
+@C CR INGENO CNAME
+ 1 WH 555175 ENTRY 1
+ 2 WH 457793 ENTRY 2
+ 3 WH 518062 ENTRY 3
+ 4 WH 617502 ENTRY 4
+ 5 WH 617636 ENTRY 5
+ 6 WH 474812 ENTRY 6
+ 7 WH 748117 ENTRY 7
+ 8 WH 748118 ENTRY 8
+ 9 WH 474804 ENTRY 9
+10 WH 474816 ENTRY 10
+11 WH 382535 ENTRY 11
+12 WH 605613 ENTRY 12
+13 WH 542933 ENTRY 13
+14 WH 589328 ENTRY 14
+
+*FIELDS
+@L ID_FIELD WSTA....  FLSA  FLOB  FLDT  FLDD  FLDS  FLST SLTX  SLDP  ID_SOIL    FLNAME
+ 1 RoAnWW23 CIOB       -99   -99 DR000   -99   -99     0 C      120  CCENEB2301 Roots Anatomy Well-Watered 2023
+ 2 RoAnHT22 CIOB       -99   -99 DR000   -99   -99     0 C      120  CCENEB2301 Roots Anatomy Heat 2022
+ 3 RoAnDR22 CIOB       -99   -99 DR000   -99   -99     0 C      120  CCENEB2301 Roots Anatomy Drought 2022
+ 4 RoAnWW22 CIOB       -99   -99 DR000   -99   -99     0 C      120  CCENEB2301 Roots Anatomy Well-Watered 2022
+@L ...........XCRD ...........YCRD .....ELEV .............AREA .SLEN .FLWR .SLAS FLHST FHDUR
+ 1             -99             -99       -99               -99   -99   -99   -99 FH101   -99
+ 2             -99             -99       -99               -99   -99   -99   -99 FH101   -99
+ 3             -99             -99       -99               -99   -99   -99   -99 FH101   -99
+ 4             -99             -99       -99               -99   -99   -99   -99 FH101   -99
+
+*SOIL ANALYSIS
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 1 22332 SA011 SA001   -99  Roots Anatomy Well-Watered 2023
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 1    30   -99  1.08   .05   8.5   -99    17   1.2   -99
+ 1    60   -99    .8   .03   8.5   -99     3    .6   -99
+ 1    90   -99   .87   .04   7.9   -99    10    .7   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 2 22077 SA011 SA001   -99  Roots Anatomy Heat 2022
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 2    30   -99  1.06   .05   8.8   -99    17   1.3   -99
+ 2    60   -99    .4   .02   8.5   -99     7    .6   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 3 22008 SA011 SA001   -99  Roots Anatomy Drought 2022
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 3    30   -99    .8   .04   8.6   -99    17   1.7   -99
+ 3    60   -99    .6   .04   8.7   -99    .9    .7   -99
+@A SADAT  SMHB  SMPX  SMKE  SANAME
+ 4 22332 SA011 SA001   -99  Roots Anatomy Well-Watered 2024
+@A  SABL  SADM  SAOC  SANI SAPHW SAPHB  SAPX  SAKE  SASC
+ 4    30   -99   .53   .03   8.9   -99   5.6    .7   -99
+ 4    60   -99  1.66   .05   8.7   -99  19.7   1.3   -99
+
+*INITIAL CONDITIONS
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 1    WH 22322   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Roots Anatomy Well-Watered 2023
+@C  ICBL  SH2O  SNH4  SNO3
+ 1    30  .172    29    29
+ 1    60  .225    16    27
+ 1    90  .207    33    53
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 2    WH 22077   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Roots Anatomy Heat 2022
+@C  ICBL  SH2O  SNH4  SNO3
+ 2    30  .248     4    48
+ 2    60  .249     5    69
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 3    WH 22010   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Roots Anatomy Drought 2022
+@C  ICBL  SH2O  SNH4  SNO3
+ 3    30  .253     6    37
+ 3    60  .265     5    51
+@C   PCR ICDAT  ICRT  ICND  ICRN  ICRE  ICWD ICRES ICREN ICREP ICRIP ICRID ICNAME
+ 4    WH 21341   -99   -99     1     1   -99   -99   -99   -99   -99   -99 Roots Anatomy Well-Watered 2023
+@C  ICBL  SH2O  SNH4  SNO3
+ 4    30  .234   5.4  25.7
+ 4    60  .292   5.4  26.4
+
+*PLANTING DETAILS
+@P PDATE EDATE  PPOP  PPOE  PLME  PLDS  PLRS  PLRD  PLDP  PLWT  PAGE  PENV  PLPH  SPRL                        PLNAME
+ 1 22327 22334   150   137     S     R    20   -99     4   -99   -99   -99   -99   -99                        Roots Anatomy Well-Watered 2023
+ 2 22064 22070   300   170     S     R    20   -99     4   -99   -99   -99   -99   -99                        Roots Anatomy Heat 2022
+ 3 21337 21343   330   150     S     R    40   -99     4   -99   -99   -99   -99   -99                        Roots Anatomy Drought 2022
+ 4 21330 21335   330   150     S     R    40   -99     4   -99   -99   -99   -99   -99                        Roots Anatomy Well-Watered 2022
+
+*IRRIGATION AND WATER MANAGEMENT
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 1     1    30    50   100 GS000 IR001    10 Roots Anatomy Well-Watered 2023
+@I IDATE  IROP IRVAL
+ 1 22327 IR005 116.7
+ 1 22347 IR005  64.2
+ 1 23003 IR005  52.5
+ 1 23020 IR005  58.3
+ 1 23034 IR005  46.7
+ 1 23048 IR005  46.7
+ 1 23066 IR005  52.5
+ 1 23076 IR005  40.8
+ 1 23086 IR005  46.7
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 2     1    30    50   100 GS000 IR001    10 Roots Anatomy Heat 2022
+@I IDATE  IROP IRVAL
+ 2 22064 IR005 128.3
+ 2 22082 IR005  64.2
+ 2 22095 IR005  58.3
+ 2 22110 IR005    70
+ 2 22115 IR005  58.3
+ 2 22122 IR005  58.3
+ 2 22127 IR005  52.5
+ 2 22132 IR005  43.8
+ 2 22137 IR005  43.8
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 3     1    30    50   100 GS000 IR001    10 Roots Anatomy Drought 2022
+@I IDATE  IROP IRVAL
+ 3 21337 IR001    20
+ 3 21347 IR001   120
+@I  EFIR  IDEP  ITHR  IEPT  IOFF  IAME  IAMT IRNAME
+ 4     1    30    50   100 GS000 IR001    10 Roots Anatomy Well-Watered 2022
+@I IDATE  IROP IRVAL
+ 4 21330 IR005    16
+ 4 21345 IR005     9
+ 4 21363 IR005    10
+ 4 22017 IR005    10
+ 4 22033 IR005    10
+ 4 22050 IR005    12
+ 4 22062 IR005    10
+ 4 22073 IR005   6.5
+
+*FERTILIZERS (INORGANIC)
+@F FDATE  FMCD  FACD  FDEP  FAMN  FAMP  FAMK  FAMC  FAMO  FOCD FERNAME
+ 1 22314 FE028 AP002     5   123    50    12     0    12     0 Roots Anatomy Well-Watered 2023
+ 1 22347 FE005 AP001     0   100     0     0     0     0   -99 Roots Anatomy Well-Watered 2023
+ 1 23003 FE005 AP001     0   100     0     0     0     0   -99 Roots Anatomy Well-Watered 2023
+ 2 22060 FE028 AP002     5   123    50    12     0    12     0 Roots Anatomy Heat 2022
+ 2 22095 FE005 AP001     0   100     0     0     0     0   -99 Roots Anatomy Heat 2022
+ 2 22109 FE005 AP001     0   100     0     0     0     0   -99 Roots Anatomy Heat 2022
+ 3 21314 FE028 AP002     5   123    50    12     0    12     0 Roots Anatomy Drought 2022
+ 3 21337 FE005 AP001     0    50     0     0     0     0   -99 Roots Anatomy Drought 2022
+ 4 21314 FE028 AP002     5   123    50    12     0    12     0 Roots Anatomy Well-Watered 2022
+ 4 21362 FE005 AP001     0   100     0     0     0     0   -99 Roots Anatomy Well-Watered 2022
+ 4 22017 FE005 AP001     0   100     0     0     0     0   -99 Roots Anatomy Well-Watered 2022
+
+*RESIDUES AND ORGANIC FERTILIZER
+@R RDATE  RCOD  RAMT  RESN  RESP  RESK  RINP  RDEP  RMET RENAME
+ 1 22244 RE101  2222   3.6   .24  2.14   100    18 AP002 Roots Anatomy Well-Watered 2023
+ 2 21244 RE101  2222   3.6   .24  2.14   100    18 AP002 Roots Anatomy Heat 2022
+ 3 21244 RE101  2222   3.6   .24  2.14   100    18 AP002 Roots Anatomy Well-Watered 2022
+
+*TILLAGE AND ROTATIONS
+@T TDATE TIMPL  TDEP TNAME
+ 1 22314 TI007    10 Roots Anatomy Well-Watered 2023
+ 1 22314 TI002    45 Roots Anatomy Well-Watered 2023
+ 1 22314 TI007    10 Roots Anatomy Well-Watered 2023
+ 1 22314 TI007    10 Roots Anatomy Well-Watered 2023
+ 2 21313 TI007    10 Roots Anatomy Heat 2022
+ 2 21314 TI002    45 Roots Anatomy Heat 2022
+ 2 21315 TI007    10 Roots Anatomy Heat 2022
+ 2 21315 TI007    10 Roots Anatomy Heat 2022
+ 2 22081 TI012    10 Roots Anatomy Heat 2022
+ 3 21313 TI007     5 Roots Anatomy Drought 2022
+ 3 21314 TI002    20 Roots Anatomy Drought 2022
+ 3 21315 TI007     5 Roots Anatomy Drought 2022
+ 4 21314 TI007    10 Roots Anatomy Well-Watered 2022
+ 4 21314 TI007    10 Roots Anatomy Well-Watered 2022
+ 4 21314 TI007    10 Roots Anatomy Well-Watered 2022
+ 4 21314 TI002    45 Roots Anatomy Well-Watered 2022
+
+*HARVEST DETAILS
+@H HDATE  HSTG  HCOM HSIZE   HPC  HBPC HNAME
+ 1 23113 GS006     H     A   100   -99 Roots Anatomy Well-Watered 2023
+ 2 22161 GS006     H     A   100   -99 Roots Anatomy Heat 2022
+ 3 22116 GS006     H     A   100   -99 Roots Anatomy Drought 2022
+ 4 22123 GS006     H     A   100   -99 Roots Anatomy Well-Watered 2023
+
+*SIMULATION CONTROLS
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 1 GE              1     1     S 22244  2150 Roots Anatomy WW 2023
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 1 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 1 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 1 MA              R     R     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 1 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 1 PL          22001 22001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 1 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 1 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 1 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 1 HA              0 02001   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 2 GE              1     1     S 21244  2150 Roots Anatomy Heat 2022
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 2 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 2 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 2 MA              R     R     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 2 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 2 PL          22001 22001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 2 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 2 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 2 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 2 HA              0 02001   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 3 GE              1     1     S 21244  2150 Roots Anatomy DR 2022
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 3 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 3 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 3 MA              R     R     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 3 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 3 PL          22001 22001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 3 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 3 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 3 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 3 HA              0 02001   100     0
+
+@N GENERAL     NYERS NREPS START SDATE RSEED SNAME.................... SMODEL
+ 4 GE              1     1     S 21244  2150 Roots Anatomy WW 2023
+@N OPTIONS     WATER NITRO SYMBI PHOSP POTAS DISES  CHEM  TILL   CO2
+ 4 OP              Y     Y     Y     N     N     N     N     Y     M
+@N METHODS     WTHER INCON LIGHT EVAPO INFIL PHOTO HYDRO NSWIT MESOM MESEV MESOL
+ 4 ME              M     M     E     R     S     L     R     1     G     R     2
+@N MANAGEMENT  PLANT IRRIG FERTI RESID HARVS
+ 4 MA              R     R     R     R     M
+@N OUTPUTS     FNAME OVVEW SUMRY FROPT GROUT CAOUT WAOUT NIOUT MIOUT DIOUT VBOSE CHOUT OPOUT FMOPT
+ 4 OU              N     Y     Y     1     Y     Y     Y     Y     Y     N     Y     N     Y     A
+
+@  AUTOMATIC MANAGEMENT
+@N PLANTING    PFRST PLAST PH2OL PH2OU PH2OD PSTMX PSTMN
+ 4 PL          22001 22001    40   100    30    40    10
+@N IRRIGATION  IMDEP ITHRL ITHRU IROFF IMETH IRAMT IREFF
+ 4 IR             30    50   100 GS000 IR001    10     1
+@N NITROGEN    NMDEP NMTHR NAMNT NCODE NAOFF
+ 4 NI             30    50    25 FE001 GS000
+@N RESIDUES    RIPCN RTIME RIDEP
+ 4 RE            100     1    20
+@N HARVEST     HFRST HLAST HPCNP HPCNR
+ 4 HA              0 02001   100     0
+
+
+

@@ -1,0 +1,118 @@
+pcf
+* control data
+             restart          estimation
+        32        48        11         0         4
+         1         1              single               point         1         0         0
+   5.000000E+00 2.000000E+00 3.000000E-01 3.000000E-02 10
+   1.000000E+01   1.000000E+01   1.000000E-03
+   1.000000E-01   3
+   10000   1.000000E-03   4   4   1.000000E-03   4
+         1         1         1
+* lsqr
+  1
+  0.0001  0.0001  28.0  28
+  0
+* parameter groups
+PHEN  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+VERN  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+RUE  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+LEAF  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+LSEN  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+TILL  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+TDTH  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+ROOT  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+CANOPY  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+COMP  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+KILL  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+* parameter data
+AWN                   none                  relative              5.0000000000E+00      0.0000000000E+00      1.0000000000E+01      CANOPY                1.0000000000E+00      0.0000000000E+00      1
+GN%                   none                  relative              2.1370000000E+00      1.0000000000E+00      3.5000000000E+00      COMP                  1.0000000000E+00      0.0000000000E+00      1
+GN1                   none                  relative              1.9000000000E+00      0.0000000000E+00      6.0000000000E+00      COMP                  1.0000000000E+00      0.0000000000E+00      1
+HTS                   none                  relative              1.0000000000E+02      6.0000000000E+01      1.5000000000E+02      CANOPY                1.0000000000E+00      0.0000000000E+00      1
+KCA                   none                  relative              8.6430000000E-01      6.5000000000E-01      9.5000000000E-01      CANOPY                1.0000000000E+00      0.0000000000E+00      1
+LA1                   none                  relative              9.9710000000E+00      1.0000000000E+00      2.0000000000E+01      LEAF                  1.0000000000E+00      0.0000000000E+00      1
+LA2                   none                  relative              3.9840000000E-01      1.0000000000E-01      3.0000000000E+00      LEAF                  1.0000000000E+00      0.0000000000E+00      1
+LAF                   none                  relative              2.9780000000E-01      1.0000000000E-02      8.0000000000E-01      LEAF                  1.0000000000E+00      0.0000000000E+00      1
+LS1                   none                  relative              6.2830000000E+00      5.5000000000E+00      6.5000000000E+00      LSEN                  1.0000000000E+00      0.0000000000E+00      1
+LSP                   none                  relative              5.5200000000E+00      4.0000000000E+00      5.7000000000E+00      LSEN                  1.0000000000E+00      0.0000000000E+00      1
+P1                    none                  relative              4.0000000000E+02      1.0000000000E+02      5.0000000000E+02      PHEN                  1.0000000000E+00      0.0000000000E+00      1
+P2                    none                  relative              2.8000000000E+02      1.0000000000E+02      5.0000000000E+02      PHEN                  1.0000000000E+00      0.0000000000E+00      1
+P2F                   none                  relative              2.5000000000E-01      0.0000000000E+00      6.0000000000E-01      PHEN                  1.0000000000E+00      0.0000000000E+00      1
+P3                    none                  relative              2.0000000000E+02      1.0000000000E+02      5.0000000000E+02      PHEN                  1.0000000000E+00      0.0000000000E+00      1
+P4                    none                  relative              2.6000000000E+02      1.0000000000E+02      5.0000000000E+02      PHEN                  1.0000000000E+00      0.0000000000E+00      1
+P41                   none                  relative              5.0000000000E-02      5.0000000000E-02      5.0000000000E-01      PHEN                  1.0000000000E+00      0.0000000000E+00      1
+P4F                   none                  relative              1.5400000000E-01      1.5000000000E-01      3.5000000000E-01      PHEN                  1.0000000000E+00      0.0000000000E+00      1
+PA1                   none                  relative              2.6910000000E+00      1.0000000000E+00      6.0000000000E+00      RUE                   1.0000000000E+00      0.0000000000E+00      1
+PAR                   none                  relative              1.7910000000E+00      1.0000000000E+00      6.0000000000E+00      RUE                   1.0000000000E+00      0.0000000000E+00      1
+PHF                   none                  relative              1.0000000000E+00      1.0000000000E+00      1.6000000000E+00      LEAF                  1.0000000000E+00      0.0000000000E+00      1
+PHL                   none                  relative              1.3000000000E+01      4.0000000000E+00      2.0000000000E+02      LEAF                  1.0000000000E+00      0.0000000000E+00      1
+RDG                   none                  relative              3.2810000000E+00      1.0000000000E+00      5.0000000000E+00      ROOT                  1.0000000000E+00      0.0000000000E+00      1
+RS%                   none                  relative              3.0010000000E+01      1.0000000000E+01      6.0000000000E+01      COMP                  1.0000000000E+00      0.0000000000E+00      1
+SLA                   none                  relative              3.5000000000E+02      1.0000000000E+02      6.0000000000E+02      LEAF                  1.0000000000E+00      0.0000000000E+00      1
+TD1                   none                  relative              6.0000000000E+00      2.0000000000E+00      6.0000000000E+00      TDTH                  1.0000000000E+00      0.0000000000E+00      1
+TDF                   none                  relative              3.9970000000E+00      0.0000000000E+00      2.0000000000E+01      TDTH                  1.0000000000E+00      0.0000000000E+00      1
+TDP                   none                  relative              3.2540000000E+00      1.5000000000E+00      4.0000000000E+00      TDTH                  1.0000000000E+00      0.0000000000E+00      1
+TIF                   none                  relative              1.9990000000E+00      5.0000000000E-01      2.0000000000E+00      TILL                  1.0000000000E+00      0.0000000000E+00      1
+TIL                   none                  relative              2.3000000000E+00      2.3000000000E+00      7.0000000000E+00      TILL                  1.0000000000E+00      0.0000000000E+00      1
+TIP                   none                  relative              1.9500000000E+00      1.9500000000E+00      4.0000000000E+00      TILL                  1.0000000000E+00      0.0000000000E+00      1
+TKF                   none                  relative              -2.0000000000E+01     -2.5000000000E+01     -1.0000000000E+01     KILL                  1.0000000000E+00      0.0000000000E+00      1
+VEF                   none                  relative              5.3860000000E-01      0.0000000000E+00      1.0000000000E+00      VERN                  1.0000000000E+00      0.0000000000E+00      1
+* observation groups
+phenology
+yield
+lai
+biomass
+* observation data
+ emergence_dap_3g2     7.000000       7.198158E-02  phenology
+ anthesis_dap_3g2      96.00000       7.198158E-02  phenology
+ maturity_dap_3g2      139.0000       7.198158E-02  phenology
+ productwtkgdmhan_3g2  6933.000       7.527035E-05  yield
+ productunitweigh_3g2 4.2000000E-02   7.527035E-05  yield
+ product_number_n_3g2  16392.00       7.527035E-05  yield
+ productharvestin_3g2 0.4100000       7.527035E-05  yield
+ maximumleafareai_3g2  6.100000       0.419961      lai
+ canopytopswtkgdm_3g2  16796.00       1.255643E-04  biomass
+ vegetativewtkgdm_3g2  9863.000       1.255643E-04  biomass
+ product_n_kgha_3g2    142.3000       7.527035E-05  yield
+ product_n__3g2        2.100000       7.527035E-05  yield
+ emergence_dap_3g6     7.000000       7.198158E-02  phenology
+ anthesis_dap_3g6      100.0000       7.198158E-02  phenology
+ maturity_dap_3g6      143.0000       7.198158E-02  phenology
+ productwtkgdmhan_3g6  6947.000       7.527035E-05  yield
+ productunitweigh_3g6 4.2000000E-02   7.527035E-05  yield
+ product_number_n_3g6  16489.00       7.527035E-05  yield
+ productharvestin_3g6 0.3900000       7.527035E-05  yield
+ maximumleafareai_3g6  5.700000       0.419961      lai
+ canopytopswtkgdm_3g6  17928.00       1.255643E-04  biomass
+ vegetativewtkgdm_3g6  10981.00       1.255643E-04  biomass
+ product_n_kgha_3g6    133.9000       7.527035E-05  yield
+ product_n__3g6        1.900000       7.527035E-05  yield
+ emergence_dap_3g7     7.000000       7.198158E-02  phenology
+ anthesis_dap_3g7      101.0000       7.198158E-02  phenology
+ maturity_dap_3g7      142.0000       7.198158E-02  phenology
+ productwtkgdmhan_3g7  6650.000       7.527035E-05  yield
+ productunitweigh_3g7 4.1000000E-02   7.527035E-05  yield
+ product_number_n_3g7  16031.00       7.527035E-05  yield
+ productharvestin_3g7 0.4100000       7.527035E-05  yield
+ maximumleafareai_3g7  6.700000       0.419961      lai
+ canopytopswtkgdm_3g7  16066.00       1.255643E-04  biomass
+ vegetativewtkgdm_3g7  9416.000       1.255643E-04  biomass
+ product_n_kgha_3g7    123.9000       7.527035E-05  yield
+ product_n__3g7        1.900000       7.527035E-05  yield
+ emergence_dap_3g9     7.000000       7.198158E-02  phenology
+ anthesis_dap_3g9      101.0000       7.198158E-02  phenology
+ maturity_dap_3g9      145.0000       7.198158E-02  phenology
+ productwtkgdmhan_3g9  6560.000       7.527035E-05  yield
+ productunitweigh_3g9 4.3000000E-02   7.527035E-05  yield
+ product_number_n_3g9  15412.00       7.527035E-05  yield
+ productharvestin_3g9 0.3300000       7.527035E-05  yield
+ maximumleafareai_3g9  5.800000       0.419961      lai
+ canopytopswtkgdm_3g9  20154.00       1.255643E-04  biomass
+ vegetativewtkgdm_3g9  13594.00       1.255643E-04  biomass
+ product_n_kgha_3g9    131.8000       7.527035E-05  yield
+ product_n__3g9        2.000000       7.527035E-05  yield
+* model command line
+py C:/pest18/run_dssat.py
+* model input/output
+./CI0500\WHCER048_ECO.TPL C:/DSSAT48/Genotype/WHCER048.ECO
+./CI0500\OVERVIEW.ins C:/DSSAT48/Wheat/OVERVIEW.OUT

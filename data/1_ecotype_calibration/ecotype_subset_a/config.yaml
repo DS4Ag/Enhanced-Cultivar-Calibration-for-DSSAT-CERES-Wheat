@@ -1,0 +1,71 @@
+ww2023_data:
+  CI0500:
+    - WW23_G-2
+    - WW23_G-6
+    - WW23_G-7
+    - WW23_G-9
+  CI0501:
+    - WW23_G-1
+    - WW23_G-3
+    - WW23_G-4
+    - WW23_G-5
+    - WW23_G-8
+    - WW23_G-10
+    - WW23_G-14
+  CI0502:
+    - WW23_G-11
+  CI0503:
+    - WW23_G-12
+    - WW23_G-13
+plantgro_variables: null
+overview_variables:
+  - Emergence (DAP)
+  - Anthesis (DAP)
+  - Maturity (DAP)
+  - Product wt (kg dm/ha;no loss)
+  - Product unit weight (g dm)
+  - Product number (no/m2)
+  - Product harvest index (ratio)
+  - Maximum leaf area index
+  - Canopy (tops) wt (kg dm/ha)
+  - Vegetative wt (kg dm/ha)
+  - Product N (kg/ha)
+  - Product N (%)
+file_paths:
+  cul_file: C:/DSSAT48/Genotype/WHCER048.CUL
+  eco_file: C:/DSSAT48/Genotype/WHCER048.ECO
+  overview_file: C:/DSSAT48/Wheat/OVERVIEW.OUT
+  plantgro_file: C:/DSSAT48/Wheat/PlantGro.OUT
+commands:
+  model_command: py C:/pest18/run_dssat.py
+  py_command_file: C:/pest18/run_dssat.py
+calibration_method:
+- PEST
+label:
+- PEST, FinStateVars, 5 ParGrps, Updated Controls, Calibrate DFAULT eco, noRS_WW-23
+Ploting_group:
+- Initial Parameters
+Groups:
+  P1V: P
+  P1D: P
+  P5: P5
+  G1: G
+  G2: G
+  G3: G3
+  PHINT: PHINT
+PST_conffiguration:
+  rmv_splitcols: true
+  rlambda1: 5.0
+  rlamfac: 2.0
+  phiratsuf: 0.3
+  phiredlam: 0.03
+  NOPTSWITCH: 3
+  PHIREDSTP: 0.001
+  NPHISTP: 4
+  NPHINORED: 4
+  RELPARSTP: 0.001
+  NRELPAR: 4
+short_label:
+- eco_noRS_WW-23
+long_label:
+- PEST, Endpoint Variables, 5 Parameter Groups, Updated Controls, Initial Cultivar Values = CI0001 +  Ecotype Calibration, noRS_WW-23

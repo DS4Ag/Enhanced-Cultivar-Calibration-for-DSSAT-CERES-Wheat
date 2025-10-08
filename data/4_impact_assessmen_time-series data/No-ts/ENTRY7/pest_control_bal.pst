@@ -1,0 +1,51 @@
+pcf
+* control data
+             restart          estimation
+         7        12         5         0         4
+         1         1              single               point         1         0         0
+   5.000000E+00 2.000000E+00 3.000000E-01 3.000000E-02 10
+   1.000000E+01   1.000000E+01   1.000000E-03
+   1.000000E-01   3
+   10000   1.000000E-03   4   4   1.000000E-03   4
+         1         1         1
+* lsqr
+  1
+  0.0001  0.0001  28.0  28
+  0
+* parameter groups
+P  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+P5  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+G  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+G3  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+PHINT  relative  1.0000000000E-02  0.0001  switch  2.0000000000E+00  parabolic
+* parameter data
+G1                    none                  relative              2.7000000000E+01      1.0000000000E+01      5.0000000000E+01      G                     1.0000000000E+00      0.0000000000E+00      1
+G2                    none                  relative              4.5000000000E+01      1.0000000000E+01      8.0000000000E+01      G                     1.0000000000E+00      0.0000000000E+00      1
+G3                    none                  relative              4.0000000000E+00      5.0000000000E-01      8.0000000000E+00      G3                    1.0000000000E+00      0.0000000000E+00      1
+P1D                   none                  relative              4.0000000000E+01      0.0000000000E+00      2.0000000000E+02      P                     1.0000000000E+00      0.0000000000E+00      1
+P1V                   none                  relative              2.0000000000E+00      0.0000000000E+00      6.0000000000E+01      P                     1.0000000000E+00      0.0000000000E+00      1
+P5                    none                  relative              5.7000000000E+02      1.0000000000E+02      9.9900000000E+02      P5                    1.0000000000E+00      0.0000000000E+00      1
+PHI                   none                  relative              1.0000000000E+02      3.0000000000E+01      1.5000000000E+02      PHINT                 1.0000000000E+00      0.0000000000E+00      1
+* observation groups
+phenology
+yield
+lai
+biomass
+* observation data
+ emergence_dap         7.000000       0.128037      phenology
+ anthesis_dap          101.0000       0.128037      phenology
+ maturity_dap          142.0000       0.128037      phenology
+ productwtkgdmhanolos  6650.000       6.642195E-04  yield
+ productunitweightgdm 4.1000000E-02   6.642195E-04  yield
+ product_number_nom2   16031.00       6.642195E-04  yield
+ productharvestindexr 0.4100000       6.642195E-04  yield
+ maximumleafareaindex  6.700000       0.666667      lai
+ canopytopswtkgdmha    16066.00       1.181250E-03  biomass
+ vegetativewtkgdmha    9416.000       1.181250E-03  biomass
+ product_n_kgha        123.9000       6.642195E-04  yield
+ product_n_            1.900000       6.642195E-04  yield
+* model command line
+py C:/pest18/run_dssat.py
+* model input/output
+./ENTRY7\WHCER048_CUL.TPL C:/DSSAT48/Genotype/WHCER048.CUL
+./ENTRY7\OVERVIEW.ins C:/DSSAT48/Wheat/OVERVIEW.OUT
