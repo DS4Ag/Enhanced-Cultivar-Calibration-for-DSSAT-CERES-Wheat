@@ -253,3 +253,7 @@ If you use this repository or its components, please cite:
 
 > Vargas-Rojas, L., Wang, D. R., et al. (2025). *Enhancing DSSAT-CERES Wheat Calibration with Ecotype Parameterization and Time-Series Data.*
 > [Manuscript submitted to *in silico Plants* (ISPLANTS-2025-064)].
+
+## **License**
+
+This repository is released under the [GNU General Public License v3.0 only](https://www.gnu.org/licenses/gpl-3.0.html).
