@@ -71,8 +71,8 @@ Enhanced_Cultivar_Calibration_DSSAT_Ecotype_Timeseries/
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/Enhanced_Cultivar_Calibration_DSSAT_Ecotype_Timeseries.git
-cd Enhanced_Cultivar_Calibration_DSSAT_Ecotype_Timeseries
+git clone https://github.com/DS4Ag/Enhanced-Cultivar-Calibration-for-DSSAT-CERES-Wheat.git
+cd Enhanced-Cultivar-Calibration-for-DSSAT-CERES-Wheat
 
 # Create and activate virtual environment
 python -m venv venv
