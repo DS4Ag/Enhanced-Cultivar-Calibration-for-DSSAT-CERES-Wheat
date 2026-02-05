@@ -260,10 +260,6 @@ This project was tested with:
 
 ---
 
-## **Citation**
-
-If you use this repository or its components, please cite:
-
 ## **License**
 
 This repository is released under the [GNU General Public License v3.0 only](https://www.gnu.org/licenses/gpl-3.0.html).
