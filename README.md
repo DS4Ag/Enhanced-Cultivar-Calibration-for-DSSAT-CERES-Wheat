@@ -11,6 +11,9 @@
 
 ### *Integrating Ecotype Parameterization and Time-Series Data*
 
+The project develops a systematic workflow for calibrating DSSAT-CERES Wheat model parameters using ecotype-specific coefficients and time-series observations. It integrates multiple calibration steps, clustering-based ecotype definition, and automated parameter optimization through the PEST software.
+
+
 This repository contains the reproducible framework and data used in the study:
 
 > [**“Enhancing DSSAT-CERES Wheat Calibration with Ecotype Parameterization and Time-Series Data”**](https://doi.org/10.1093/insilicoplants/diag001)
@@ -18,15 +21,12 @@ This repository contains the reproducible framework and data used in the study:
 
 ## How to Cite
 
-If you use `dpest` in your research, please cite the paper:
+If you use code or data of this repository in your research, please cite the paper:
 
 > Luis Vargas-Rojas, Matthew Reynolds, Diane R Wang, *Use of an enhanced cultivar calibration framework for DSSAT to examine effects of ecotype and time-series data*, 
 > in silico Plants, Volume 8, Issue 1, 2026, diag001, https://doi.org/10.1093/insilicoplants/diag001
 
 For additional citation formats, see the [https://doi.org/10.1093/insilicoplants/diag001](https://doi.org/10.1093/insilicoplants/diag001).
-
-
-The project develops a systematic workflow for calibrating DSSAT-CERES Wheat model parameters using ecotype-specific coefficients and time-series observations. It integrates multiple calibration steps, clustering-based ecotype definition, and automated parameter optimization through the PEST software.
 
 ---
 
