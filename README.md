@@ -6,13 +6,15 @@
 [![Python version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-GPL--3.0-green.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Documentation Status](https://readthedocs.org/projects/dpest/badge/?version=latest)](https://dpest.readthedocs.io/en/latest/?badge=latest)
-[![DOI](https://joss.theoj.org/papers/10.21105/joss.08188/status.svg)](https://doi.org/10.1093/insilicoplants/diag001)
+[![Static Badge](https://img.shields.io/badge/in%20silico%20Plants-10.1093%2Finsilicoplants%2Fdiag001-%23719236)](https://doi.org/10.1093/insilicoplants/diag001)
+
 
 ### *Integrating Ecotype Parameterization and Time-Series Data*
 
 This repository contains the reproducible framework and data used in the study:
-[**“Enhancing DSSAT-CERES Wheat Calibration with Ecotype Parameterization and Time-Series Data”**](https://doi.org/10.1093/insilicoplants/diag001)
-[*(Vargas-Rojas et al., 2025)*](https://doi.org/10.1093/insilicoplants/diag001)
+
+> [**“Enhancing DSSAT-CERES Wheat Calibration with Ecotype Parameterization and Time-Series Data”**](https://doi.org/10.1093/insilicoplants/diag001)
+> [*(Vargas-Rojas et al., 2025)*](https://doi.org/10.1093/insilicoplants/diag001)
 
 ## How to Cite
 
